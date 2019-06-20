@@ -1,0 +1,150 @@
+.populares-1 {
+  display: flex;
+  align-content: center;
+  margin-left: 40px;
+}
+
+.grup1 {
+  margin: 20px;
+  &__img{
+    background-image: url('../img/image-1.png');
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+
+  }
+  &__text{
+    margin-top: 10px;
+  }
+}
+
+.grup2 {
+  margin: 20px;
+
+  &__img{
+    background-image: url('../img/image-2.png');
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+  }
+  &__text{
+    margin-top: 10px;
+  }
+}
+
+.grup3 {
+  margin: 20px;
+
+  &__img{
+    background-image: url('../img/image-3.png');
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+  }
+  &__text{
+    margin-top: 10px;
+  }
+}
+
+.grup4 {
+  margin: 20px;
+
+  &__img{
+    background-image: url('../img/image-4.png');
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+  }
+  &__text{
+    margin-top: 10px;
+  }
+}
+
+.populares-2 {
+  display: flex;
+  align-content: center;
+  margin-left: 40px;
+
+}
+
+.grup5 {
+  margin: 20px;
+
+  &__img{
+    background-image: url('../img/image-5.png');
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+  }
+  &__text{
+    margin-top: 10px;
+  }
+}
+
+.grup6 {
+  margin: 20px;
+
+  &__img{
+    background-image: url('../img/image-6.png');
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+  }
+  &__text{
+    margin-top: 10px;
+  }
+}
+
+.grup7 {
+  margin: 20px;
+
+  &__img{
+    background-image: url('../img/image-7.png');
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+  }
+  &__text{
+    margin-top: 10px;
+  }
+}
+
+.grup8 {
+  margin: 20px;
+
+  &__img{
+    background-image: url('../img/image-8.png');
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+  }
+  &__text{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width:667px){
+  .populares-1{
+    display: inline-block;
+    margin: 0;
+    padding-left: 40px;
+  }
+  .populares-2{
+    display: inline-block;
+    margin: 0;
+    padding-left: 40px;
+
+  }
+}
+
+@media (max-width:1025px){
+  .populares-1 {
+    display: inline-block;
+    &__img{
+      width: 450px;
+      height: 330px;
+    }
+
+  }
+
+}

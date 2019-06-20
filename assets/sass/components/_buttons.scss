@@ -1,0 +1,22 @@
+button {
+  width: 100px;
+  height: 40px;
+  color: $white;
+  border: 0;
+}
+
+.row .boton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.celeste{
+  background-color:$cloud;
+}
+
+.rosado{
+  background-color:$jelly-bean;
+}
